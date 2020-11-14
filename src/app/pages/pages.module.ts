@@ -6,6 +6,8 @@ import { SharedModule } from '../shared/shared.module';
 import { FormsModule } from '@angular/forms';
 import { PagesRoutingModule } from './pages-routing.module';
 
+import { PipesModule } from '../pipes/pipes.module';
+
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
@@ -16,6 +18,7 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
+import { ProfileComponent } from './profile/profile.component';
 
 
 @NgModule({
@@ -28,7 +31,8 @@ import { RxjsComponent } from './rxjs/rxjs.component';
      GraficoDonaComponent,
      AccountSettingsComponent,
      PromesasComponent,
-     RxjsComponent
+     RxjsComponent,
+     ProfileComponent
     ],
     imports: [
     CommonModule,
@@ -36,7 +40,8 @@ import { RxjsComponent } from './rxjs/rxjs.component';
     RouterModule,
     SharedModule,
     PagesRoutingModule,
-    ChartsModule
+    ChartsModule,
+    PipesModule
   ],
   exports: [
     DashboardComponent,
