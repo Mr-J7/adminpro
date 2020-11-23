@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 export class SettingsService {
 
   ajustes: Ajustes = {
-      temaUrl: 'assets/css/colors/default-dark.css',
+      temaUrl: 'assets/css/colors/red.css',
       tema: 'defaul'
   };
 

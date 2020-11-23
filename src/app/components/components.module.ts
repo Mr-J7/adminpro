@@ -9,7 +9,7 @@ import { ChartsModule } from 'ng2-charts';
 
 
 @NgModule({
-  declarations: [ IncrementadorComponent, GraficoDonaComponent],
+  declarations: [ IncrementadorComponent, GraficoDonaComponent,],
   imports: [
     CommonModule,
     ChartsModule

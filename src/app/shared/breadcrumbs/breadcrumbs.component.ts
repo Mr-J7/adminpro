@@ -22,7 +22,6 @@ export class BreadcrumbsComponent implements OnInit {
     .subscribe( evento => {
 
       this.label = evento.titulo;
-      console.log(evento);
       this.title.setTitle( this.label );
 
       let metaTag: MetaDefinition = {
